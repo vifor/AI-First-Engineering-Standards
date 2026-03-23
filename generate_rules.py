@@ -25,6 +25,8 @@ def generate(rule_names: list[str]):
     template_dir = Path("templates")
     output_dir = Path("output")
 
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     cursor_out = output_dir / ".cursor" / "rules"
     cursor_out.mkdir(parents=True, exist_ok=True)
 
