@@ -51,13 +51,15 @@ Run the generator to stay up-to-date.
 
 **Generate all rules:**
 ```bash
-python generate_rules.py
+python3 generate_rules.py
 ```
 
 **Generate a specific rule only:**
 ```bash
-python generate_rules.py react-next
+python3 generate_rules.py react-next
 ```
+
+> **Note:** Use `python3` on Linux/macOS. On Windows, use `python` or `py` depending on your installation.
 
 The generator produces ready-to-use artifacts for three AI tools:
 
