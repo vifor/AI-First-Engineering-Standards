@@ -1,0 +1,4 @@
+# ROLE: Senior Engineer Guardrails
+# CONTEXT: AI-First Development Standards
+
+{{CONTENT}}

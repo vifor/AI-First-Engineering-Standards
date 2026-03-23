@@ -1,0 +1,6 @@
+---
+description: {{DESCRIPTION}}
+globs: {{GLOBS}}
+---
+
+{{CONTENT}}
