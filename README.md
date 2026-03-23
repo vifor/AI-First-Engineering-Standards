@@ -47,10 +47,26 @@ Every project and team is unique. I encourage you to **fork this repository**.
 * Maintain your own fork as your team's internal governance center.
 
 ### 2. Standardize
-Run the generator to stay up-to-date:
+Run the generator to stay up-to-date.
+
+**Generate all rules:**
 ```bash
 python generate_rules.py
 ```
+
+**Generate a specific rule only:**
+```bash
+python generate_rules.py react-next
+```
+
+The generator produces ready-to-use artifacts for three AI tools:
+
+| Tool | Output path | How to use |
+| --- | --- | --- |
+| Cursor | `output/.cursor/rules/*.mdc` | Copy `.cursor/` to your project root |
+| Claude Code | `output/CLAUDE.md` | Copy `CLAUDE.md` to your project root |
+| GitHub Copilot | `output/.github/copilot-instructions.md` | Copy `.github/` to your project root |
+
 ### 3. Collaborate
 
 PRs with rules that proved useful in your projects are welcome 🫶
