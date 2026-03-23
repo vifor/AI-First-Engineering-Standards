@@ -201,6 +201,9 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Generated output — run generate_rules.py to produce locally
+output/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

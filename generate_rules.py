@@ -3,7 +3,7 @@ from pathlib import Path
 
 RULES = {
     "angular": {
-        "desc": "Apply Angular 21 Modern Standards (Signals, Resource, Standalone)",
+        "desc": "Apply Angular Modern Standards (Signals, Resource, Standalone)",
         "globs": "**/*.{ts,html}"
     },
     "git-workflow": {
